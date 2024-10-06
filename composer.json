@@ -1,0 +1,39 @@
+{
+    "name": "larassn/crashlytics",
+    "description": "",
+    "type": "library",
+    "version": "1.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ali SSN",
+            "email": "alisasani15@gmail.com"
+        }
+    ],
+    "require": {
+        "sentry/sentry-laravel": "^4.1"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crashlytics\\": "app/",
+            "Modules\\Crashlytics\\Database\\Factories\\": "database/factories/",
+            "Modules\\Crashlytics\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Crashlytics\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Crashlytics\\Providers\\CrashlyticsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
