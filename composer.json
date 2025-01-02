@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Crashlytics\\": "app/",
+            "Modules\\Crashlytics\\": "src/",
             "Modules\\Crashlytics\\Database\\Factories\\": "database/factories/",
             "Modules\\Crashlytics\\Database\\Seeders\\": "database/seeders/"
         }
